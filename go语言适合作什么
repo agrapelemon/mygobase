@@ -33,4 +33,10 @@ Goml
 MLGo 
 Gorgonia
 Linear Algebra
-Go Fann 
+Go Fann
+
+https://docs.opencv.org/
+https://blog.csdn.net/xuexixiaocai/article/details/83149883 linux下opencv
+https://blog.csdn.net/dfq12345/article/details/78227471 linux下opencv
+sudo apt-get install libcanberra-gtk-module   //安装gtk，linux下opencv必备环境
+https://blog.csdn.net/xfcy1990/article/details/51448704 windows glade2
