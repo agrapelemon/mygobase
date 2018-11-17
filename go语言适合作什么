@@ -40,3 +40,6 @@ https://blog.csdn.net/xuexixiaocai/article/details/83149883 linux下opencv
 https://blog.csdn.net/dfq12345/article/details/78227471 linux下opencv
 sudo apt-get install libcanberra-gtk-module   //安装gtk，linux下opencv必备环境
 https://blog.csdn.net/xfcy1990/article/details/51448704 windows glade2
+
+sudo apt-get install libssl1.0-dev    //linux qt5安装报错用这个命令，QSslSocket: cannot resolve CRYPTO_num_locks
+https://blog.csdn.net/qing666888/article/details/79116000   //失败 linux qt安装
