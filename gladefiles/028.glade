@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <property name="width_request">480</property>
+    <property name="height_request">320</property>
+    <property name="title" translatable="yes">glade</property>
+    <property name="window_position">center</property>
+    <property name="default_width">480</property>
+    <property name="default_height">320</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="width_request">480</property>
+        <property name="height_request">320</property>
+        <property name="visible">True</property>
+        <child>
+          <object class="GtkProgressBar" id="progressbar1">
+            <property name="width_request">335</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+          </object>
+          <packing>
+            <property name="x">57</property>
+            <property name="y">141</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
