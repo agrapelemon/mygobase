@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <property name="width_request">480</property>
+    <property name="height_request">320</property>
+    <property name="title" translatable="yes">glade</property>
+    <property name="window_position">center</property>
+    <property name="default_width">480</property>
+    <property name="default_height">320</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="width_request">480</property>
+        <property name="height_request">320</property>
+        <property name="visible">True</property>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">button</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">48</property>
+            <property name="y">60</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="width_request">121</property>
+            <property name="height_request">114</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="relief">none</property>
+            <property name="use_stock">True</property>
+          </object>
+          <packing>
+            <property name="x">267</property>
+            <property name="y">129</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
