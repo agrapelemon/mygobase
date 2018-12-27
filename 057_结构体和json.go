@@ -14,8 +14,8 @@ type HostModel struct {
 	Name []NameModel
 }
 type Host struct {
-	IP   string
-	Name string
+	IP   string `json:"IP"`
+	Name string `json:"Name"`
 }
 
 func main() {
